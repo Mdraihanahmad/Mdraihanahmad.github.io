@@ -6,46 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio page</title>
     <style>
+        .round{
+            border-radius: 2rem;
+        }
+
         #tutorial{
             color: green;
             font-size: 20px;
         }
         header{
             color:rgb(3, 0, 40);
-           background-color: aliceblue;
+           background-color: #f2efe7d1;
            text-align: center;
+           border-radius: 2rem;
+           padding: 1rem;
         }
         section {
             color:rgb(3, 0, 40);
-            background-color: aliceblue;
-           
+            background-color: #f2efe7cf;
+            border-radius: 2rem;
+            padding: 1rem;
+            margin-top: 1rem;
         }
 
         footer{
             color:rgb(3, 0, 40);
-            background-color: aliceblue;
+            background-color: #F2EFE7;
             text-align: left;
+            border-radius: 2rem;
+            padding: 1rem;
+            margin-top: 1rem;
         }
         h3{
             text-align: center;
 
         }
+        .image{
+            width: 10rem;
+            height: 10rem;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-left: 40%;
+            border: 3px solid  #FFCDB2;
+            
+        }
         img{
-            border-radius: 70%;
-            background-color: blue;
+            /* border-radius: 70%; */
+            /* width: 15rem; */
+            object-fit: cover;
+            width: 10rem;
+            height: 10rem;
+            object-position: center;
+
         }
         
     </style>
        
 </head>
-<body style="background-color: rgb(90, 210, 221);">
+<body style="background-color: #FFCDB2;">
+    <!-- FFCDB2 F2EFE7 -->
     <header >
         <div id="tutorial">
             <h1>मोहम्मद रेहान अहमद</h2>
             <h1>MD RAIHAN AHMAD</h2>
             <h2>IITP CS Student | Data Analyst | Frontend Developer | Python Coder |Web Developer</h2>
             <p>I thoroughly enjoy coding.</p>
-            <img src="/images/raihan.jpg" alt="Image not Found" height="300" width="300" >
+            <!-- <img src="/images/raihan.jpg" alt="Image not Found" height="300" width="300" > -->
+            <div class="image">
+                <img src="/images/raihan.jpg" alt="">
+            </div>
         </div>
     </header>
     <section >
@@ -94,9 +123,13 @@
         <li>Daily Steps: The number of steps the person takes per day.</li>   
         
         </h5>
-        <li><a href="https" target="_blank">TO DO LIST</a></li>
+        <li><a href="https://todolist-mdraihan.netlify.app/" target="_blank">TO DO LIST(web_page)</a><li><a href="https://github.com/Mdraihanahmad/to_do_list.git" target="_blank">TO DO LIST(GITHUB LINK code)</li></a></li>
             <h6 style="font-family: Arial, Helvetica, sans-serif;">
-
+            <li>A To-Do Webpage is a simple yet powerful application that allows users to manage their daily tasks efficiently. It helps users create, update, and delete tasks, ensuring better productivity and organization.</li>
+            <li><span style="font-weight: bold; font-size: 20px;">Key Features</span></li>
+            <ol>Task Management - Users can add, edit, and delete tasks.</ol>
+            <ol>Task Status - Tasks can be marked as completed or pending.</ol>
+            <ol>Dark Mode & Light Mode</ol>
             </h6>
     </ul>
     </section>
@@ -129,8 +162,8 @@
         </h2>
     
     <ul>
-        <a href="raihan_2312res382@iitp.ac.in">E-mail</a>
-        <a href="www.linkedin.com/in/raihan-ahmad-598007294">LinkedIn</a>
+        <a href="mailto:mdraihanahmad47@gmail.com" target="_blank">E-mail</a>
+        <a href="https://www.linkedin.com/in/raihan-ahmad-598007294" target="_blank">LinkedIn</a>
         
     </ul> 
     <h3>"Profile Page"</h3>
