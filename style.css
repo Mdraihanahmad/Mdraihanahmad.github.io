@@ -31,9 +31,10 @@ header {
 }
 section {
   color: rgb(3, 0, 40);
-  background-color: #f2efe7cf;
+  background-color: #f2efe7;
   border-radius: 2rem;
-  padding: 1.5rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
   margin-top: 1rem;
 }
 
