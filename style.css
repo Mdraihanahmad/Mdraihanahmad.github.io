@@ -91,3 +91,7 @@ pre {
     border-radius: 5px;
     overflow-x: auto;
 }
+#con{
+  display: flex;
+  gap: 30px;
+}
