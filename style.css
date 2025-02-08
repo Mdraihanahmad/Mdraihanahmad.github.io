@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  padding: 22px;
+}
+html {
+  width: 100vw;
+  height: 100vh;
+  padding: 2px;
+}
+.round {
+  border-radius: 2rem;
+}
+
+#tutorial {
+  color: green;
+  font-size: 20px;
+}
+header {
+  color: rgb(3, 0, 40);
+  background-color: #f2efe7d1;
+  text-align: center;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+section {
+  color: rgb(3, 0, 40);
+  background-color: #f2efe7cf;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+
+footer {
+  color: rgb(3, 0, 40);
+  background-color: #f2efe7;
+  text-align: left;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+h3 {
+  text-align: center;
+}
+.image {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 40%;
+  border: 3px solid #ffcdb2;
+}
+img {
+  /* border-radius: 70%; */
+  /* width: 15rem; */
+  object-fit: cover;
+  width: 10rem;
+  height: 10rem;
+  object-position: center;
+}
+
+#bubble{
+    padding: 10px;
+}
+#text{
+    padding: 10px; 
+    font-size: 1rem;
+}
+#highlight{
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #f2efe7cf;
+    padding: 20px;
+    border-radius: 8px;
+}
+pre {
+    background: #f2efe7cf;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}

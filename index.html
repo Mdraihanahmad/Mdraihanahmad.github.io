@@ -5,62 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio page</title>
-    <style>
-        .round{
-            border-radius: 2rem;
-        }
-
-        #tutorial{
-            color: green;
-            font-size: 20px;
-        }
-        header{
-            color:rgb(3, 0, 40);
-           background-color: #f2efe7d1;
-           text-align: center;
-           border-radius: 2rem;
-           padding: 1rem;
-        }
-        section {
-            color:rgb(3, 0, 40);
-            background-color: #f2efe7cf;
-            border-radius: 2rem;
-            padding: 1rem;
-            margin-top: 1rem;
-        }
-
-        footer{
-            color:rgb(3, 0, 40);
-            background-color: #F2EFE7;
-            text-align: left;
-            border-radius: 2rem;
-            padding: 1rem;
-            margin-top: 1rem;
-        }
-        h3{
-            text-align: center;
-
-        }
-        .image{
-            width: 10rem;
-            height: 10rem;
-            border-radius: 50%;
-            overflow: hidden;
-            margin-left: 40%;
-            border: 3px solid  #FFCDB2;
-            
-        }
-        img{
-            /* border-radius: 70%; */
-            /* width: 15rem; */
-            object-fit: cover;
-            width: 10rem;
-            height: 10rem;
-            object-position: center;
-
-        }
-        
-    </style>
+    <link rel="stylesheet" href="style.css">
+    
        
 </head>
 <body style="background-color: #FFCDB2;">
@@ -73,10 +19,11 @@
             <p>I thoroughly enjoy coding.</p>
             <!-- <img src="/images/raihan.jpg" alt="Image not Found" height="300" width="300" > -->
             <div class="image">
-                <img src="/images/raihan.jpg" alt="">
+                <img src="/images/raihan.jpg" alt="raihan">
             </div>
         </div>
     </header>
+
     <section >
         <ul>
             <br>
@@ -101,36 +48,167 @@
     <section>
         <h1 style="text-decoration: double underline ; " >Projects</h1>
     <ul>
-        <li>
-        <a href="https://www.geeksforgeeks.org/ai-virtual-mouse/" target="_blank">AI VIRTUAL MOUSE</a></li>
-        <h4 style="font-family: Arial, Helvetica, sans-serif;">AI Virtual Mouse is a Capstone Project from our first year at IIT Patna, involving a team of six members.I have worked on exciting projects, including AI Virtual Mouse and Face Detection.</li>
-        <li>I enjoy learning new concepts in programming, artificial intelligence, and data analysis, continuously seeking opportunities to enhance my skills and knowledge.</h4>
-        <li><a href="https://github.com/Mdraihanahmad/Health_Monitor.git" target="_blank">HEALTH MONITOR</a></li>
-        <h5 style="font-family: Arial, Helvetica, sans-serif;">
-        <li>This project aims to predict the stress level of individuals based on various features such as sleep duration, quality of sleep, physical activity level, BMI category, blood pressure, etc. The dataset used contains information about individuals including their sleep habits, physical activity, and stress levels.</li>
-        <li>Data Dictionary:</li>
-        <li>Person ID: An identifier for each individual.</li>
-        <li>Gender: The gender of the person (Male/Female).</li>   
-        <li> Age: The age of the person in years.</li>   
-        <li>Occupation: The occupation or profession of the person.</li>   
-        <li>Sleep Duration (hours): The number of hours the person sleeps per day.</li>  
-        <li> Quality of Sleep (scale: 1-10): A subjective rating of the quality of sleep, ranging from 1 to 10.</li>   
-        <li> Physical Activity Level (minutes/day): The number of minutes the person engages in physical activity daily.</li>   
-        <li>Stress Level (scale: 1-10): A subjective rating of the stress level experienced by the person, ranging from 1 to 10.</li>
-        <li>BMI Category: The BMI category of the person (e.g., Underweight, Normal, Overweight).</li>    
-        <li>Blood Pressure (systolic/diastolic): The blood pressure measurement of the person, indicated as systolic pressure over diastolic pressure.</li>
-        <li> Heart Rate (bpm): The resting heart rate of the person in beats per minute.</li>
-        <li>Daily Steps: The number of steps the person takes per day.</li>   
+        <li><div id="highlight"><a href="https://www.geeksforgeeks.org/ai-virtual-mouse/" target="_blank">AI VIRTUAL MOUSE</a></div></li>
+        <div id="text"> 
+            <h4 style="font-family: Arial, Helvetica, sans-serif;">
+                <div class="container">
+                <h1>🚀 AI Virtual Mouse & Face Detection</h1>
+                <p><strong>AI Virtual Mouse</strong> is a <strong>Capstone Project</strong> from our first year at <strong>IIT Patna</strong>, involving a team of six members.</p>
         
+                <p>I have worked on exciting projects, including <strong>AI Virtual Mouse</strong> and <strong>Face Detection</strong>.</p>
+        
+                <h2>📌 My Interests</h2>
+                <p>I enjoy learning new concepts in <strong>programming, artificial intelligence, and data analysis</strong>, continuously seeking opportunities to enhance my skills and knowledge.</p>
+        
+            </div></h4>
+        </div>
+        <li> <div id="highlight"> <a href="https://github.com/Mdraihanahmad/Health_Monitor.git" target="_blank">HEALTH MONITOR</a></div></li>
+        <div id="text"> 
+            <h5 style="font-family: Arial, Helvetica, sans-serif;">
+                <div class="container">
+                    <h1>🧠 Stress Level Prediction</h1>
+            
+                    <p>This project aims to <strong>predict the stress level</strong> of individuals based on various features such as 
+                    <strong>sleep duration, quality of sleep, physical activity level, BMI category, blood pressure,</strong> and more. 
+                    The dataset used contains detailed information about individuals, including their <strong>sleep habits, physical activity, and stress levels</strong>.</p>
+            
+                    <h2>📊 Data Dictionary:</h2>
+                    <pre>
+            Feature                               Description
+            --------                               -----------
+            Person ID                             An identifier for each individual.
+            Gender                                The gender of the person (Male/Female).
+            Age                                   The age of the person in years.
+            Occupation                            The occupation or profession of the person.
+            Sleep Duration (hours)                The number of hours the person sleeps per day.
+            Quality of Sleep (scale: 1-10)        A subjective rating of sleep quality (1-10).
+            Physical Activity Level (minutes/day) The number of minutes the person engages in physical activity daily.
+            Stress Level (scale: 1-10)            A subjective rating of stress level (1-10).
+            BMI Category                          The BMI category of the person (Underweight, Normal, Overweight).
+            Blood Pressure (systolic/diastolic)   Blood pressure measurement (systolic/diastolic).
+            Heart Rate (bpm)                      The resting heart rate in beats per minute.
+            Daily Steps                           The number of steps taken per day.
+                    </pre>
+            
+                    <h2>🚀 Project Overview:</h2>
+                    <ul>
+                        <li>📌 <strong>Objective:</strong> Predict an individual's stress level using machine learning models.</li>
+                        <li>📊 <strong>Dataset:</strong> Contains health-related attributes of individuals.</li>
+                        <li>🔍 <strong>Key Features:</strong> Sleep habits, physical activity, heart rate, and stress levels.</li>
+                        <li>🏆 <strong>Outcome:</strong> Understand key factors contributing to stress and build predictive models.</li>
+                    </ul>
+            
+                </div>
+                
+                </h5>
+        </div>
+        <div id="highlight">
+            <li><a href="https://todolist-mdraihan.netlify.app/" target="_blank">TO DO LIST</a> <br>
+                <a href="https://github.com/Mdraihanahmad/to_do_list.git" target="_blank">TO DO LIST(GITHUB LINK code)</a>
+            </li>
+        </div>
+        <div id="text">
+            <h5 style="font-family: Arial, Helvetica, sans-serif;">
+                ✅ To-Do List App <br><br>
+                A simple and efficient To-Do List App built using HTML, CSS, and JavaScript. This app helps users manage tasks efficiently with a clean UI and interactive features. ✅<br>
+                
+                To-Do List App <br>
+                <br>
+                🚀 Features<br>
+                <br>
+                📌 Add & Remove Tasks<br>
+                
+                ✅ Mark Tasks as Completed<br>
+                
+                ✏️ Edit Existing Tasks<br>
+                
+                🌙 Dark & Light Mode Toggle<br>
+                
+                💾 Saves Tasks in Local Storage<br>
+                
+                🖱️ Interactive UI with Smooth Animations<br>
+                <br>
+                🛠️ Technologies Used<br>
+                <br>
+                HTML for structure<br>
+                
+                CSS for styling & animations<br>
+                
+                JavaScript for functionality & interactions<br>
         </h5>
-        <li><a href="https://todolist-mdraihan.netlify.app/" target="_blank">TO DO LIST(web_page)</a><li><a href="https://github.com/Mdraihanahmad/to_do_list.git" target="_blank">TO DO LIST(GITHUB LINK code)</li></a></li>
-            <h6 style="font-family: Arial, Helvetica, sans-serif;">
-            <li>A To-Do Webpage is a simple yet powerful application that allows users to manage their daily tasks efficiently. It helps users create, update, and delete tasks, ensuring better productivity and organization.</li>
-            <li><span style="font-weight: bold; font-size: 20px;">Key Features</span></li>
-            <ol>Task Management - Users can add, edit, and delete tasks.</ol>
-            <ol>Task Status - Tasks can be marked as completed or pending.</ol>
-            <ol>Dark Mode & Light Mode</ol>
-            </h6>
+        </div>
+        <div id="highlight">
+            <div id="bubble">
+                <li>
+                    <a href="https://bubble-game-mdraihanahmad.netlify.app/" target="_blank">BUBBLE GAME</a> <br>
+                    <a href="https://github.com/Mdraihanahmad/Bubble_Game.git" target="_blank">Source Code (github link)</a>
+                </li>
+            </div>
+        </div>
+        <div id="text">
+            <h5 style="font-family: Arial, Helvetica, sans-serif;">
+                🎈 The Bubble Game 🎮<br>
+                The Bubble Game is a fun and interactive number-based bubble-popping game where players aim to hit the correct bubble within a time limit to score points.<br>
+                <br>
+                🔥 Features:<br>
+                ✅ Engaging Gameplay - Pop the correct bubble to score points and extend your time.<br>
+                ✅ Dynamic UI – Responsive design with smooth animations.<br>
+                ✅ Sound Effects – Exciting sound effects for correct hits, mistakes, and game over.<br>
+                ✅ Timer Challenge – Race against time to achieve the highest score.<br>
+                ✅ Game Over Screen – Displays final score with an option to retry.<br>
+                <br>
+                🚀 How to Play?<br>
+                1️⃣ Click the Start Game button.<br>
+                2️⃣ A number appears under "Hit" – find and pop the bubble with that number.<br>
+                3️⃣ Correct hits add time and increase your score.<br>
+                4️⃣ Wrong hits reduce time and deduct points.<br>
+                5️⃣ Keep playing until the timer reaches 0.<br>
+                
+                🛠️ Technologies Used:<br>
+                HTML – Game structure<br>
+                CSS – Styling & animations<br>
+                JavaScript – Game logic & interactions<br>
+                🎧 Sound Effects:<br>
+                Start Music<br>
+                Correct & Wrong Sound Effects<br>
+                Heartbeat Sound for last 10 seconds<br>
+                Game Over Music   <br>
+        </h5>
+        </div>
+        <div id="highlight">
+            <li>
+                <a href="https://luv-mdraihanahmad.netlify.app/" target="_blank">Luv_que_fun</a> <br>
+                <a href="https://github.com/Mdraihanahmad/love-response-game.git" target="_blank">Source code (github link)</a>
+            </li>
+        </div>
+        <div id="text">
+            <h5 style="font-family: Arial, Helvetica, sans-serif;">
+        ❤️ Luv Fun - A Fun Yes/No Game 🎮 <br>
+        Luv Fun is a simple and interactive web game where the player is asked a fun question: "Do you love me?". The game reacts dynamically based on the player's choice, making it a lighthearted and engaging experience. 💖<br>
+        🌟 Features<br>
+
+        ✅ Fun and Interactive UI ✨<br>
+        ✅ Playful animations with a shaking "No" button 🎭<br>
+        ✅ Dynamic response with name personalization 🎉<br>
+        ✅ Fully responsive design for different screen sizes 📱💻<br>
+        ✅ Pure HTML, CSS, and JavaScript (No frameworks required) 🚀<br>
+        <br>
+        🎮 How to Play<br>
+
+        1️⃣ Open the game in a browser.<br>
+        2️⃣ Enter your name when prompted.<br>
+        3️⃣ Click YES to express love 💖.<br>
+        4️⃣ Try clicking NO... if you can! (It moves away 🤣)<br>
+        <br>
+
+        🛠️ Technologies Used<br>
+        HTML - Structure of the game.<br>
+        CSS - Styling and animations.<br>
+        JavaScript - Game logic and interactions.<br> <br>
+        <li>And I create  more exciting projects crafted with HTML, CSS, and JavaScript -  an interactive Bulb Switch and a dynamic Color Code Key and many more fun creations! 🚀🎨💡</li>
+        </div>
+            </h5>
+        
     </ul>
     </section>
     <section>
@@ -138,12 +216,12 @@
             Skills
         </h1>
         <ul>
-            <li>Python, C</li>
-            <li>Sql</li>
-            <li>Numpy, Pandas</li>
-            <li>Data Analytics</li>
-            <li>Html, Css</li>
-            <li>DSA, Machine learning</li>
+            <li>🚀 <strong>Programming:</strong> Python, C</li>
+            <li>💾 <strong>Database:</strong> SQL</li>
+            <li>📊 <strong>Data Science:</strong> NumPy, Pandas, Data Analytics</li>
+            <li>🎨 <strong>Web Development:</strong> HTML, CSS, JavaScript</li>
+            <li>⚛️ <strong>Frontend:</strong> Basic React.js</li>
+            <li>📚 <strong>Computer Science:</strong> DSA, Machine Learning</li>
         </ul>
     </section>
     <section>
